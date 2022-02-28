@@ -1,8 +1,12 @@
-const page = (
-  <div>
-    <h1 className="header">This is JSX header</h1>
-    <p>Para Test</p>
-  </div>
+const navbar = (
+  <nav>
+    <h1>Vignesh's site</h1>
+    <ul>
+      <li>Pricing</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
 );
 
-ReactDOM.render(page, document.getElementById("root"));
+ReactDOM.render(navbar, document.getElementById("root"));
