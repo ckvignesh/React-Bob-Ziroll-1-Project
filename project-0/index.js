@@ -12,7 +12,7 @@
 //   </div>
 // );
 
-function testFunc() {
+function TestFunc() {
   return (
     <div>
       <img src="./react-logo.png" width="40px" />
@@ -28,4 +28,4 @@ function testFunc() {
   );
 }
 
-ReactDOM.render(testFunc(), document.getElementById("root"));
+ReactDOM.render(<TestFunc />, document.getElementById("root"));
