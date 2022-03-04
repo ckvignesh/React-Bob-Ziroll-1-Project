@@ -1,31 +1,21 @@
-// const page = (
-//   <div>
-//     <img src="./react-logo.png" width="40px" />
-//     <h1>Fun facts about React</h1>
-//     <ul>
-//       <li>Was first released in 2013</li>
-//       <li>Was originally created by Jordan Walke</li>
-//       <li>Has well over 100K Stars on Github</li>
-//       <li>Is maintained by Facebook</li>
-//       <li>Powers thousands of enterprise apps including mobile apps</li>
-//     </ul>
-//   </div>
-// );
-
-function TestFunc() {
+function Page() {
   return (
     <div>
-      <img src="./react-logo.png" width="40px" />
-      <h1>Fun facts about React</h1>
+      <nav>
+        <header>
+          <img src="./react-logo.png" width="20px" />
+          <h1> Reasons I'm interested to learn React</h1>
+        </header>
+      </nav>
       <ul>
-        <li>Was first released in 2013</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Has well over 100K Stars on Github</li>
-        <li>Is maintained by Facebook</li>
-        <li>Powers thousands of enterprise apps including mobile apps</li>
+        <li>Popular Library</li>
+        <li>Job Opportunities</li>
       </ul>
+      <footer>
+        <small>Copyright xyz. All rights reserved</small>
+      </footer>
     </div>
   );
 }
 
-ReactDOM.render(<TestFunc />, document.getElementById("root"));
+ReactDOM.render(<Page />, document.getElementById("root"));
