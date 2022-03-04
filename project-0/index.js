@@ -1,12 +1,14 @@
-const navbar = (
-  <nav>
-    <h1>Vignesh's site</h1>
+const page = (
+  <div>
+    <h1>hello h1</h1>
+    <h2>Hello h2</h2>
     <ul>
-      <li>Pricing</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li>test</li>
+      <li>check</li>
     </ul>
-  </nav>
+  </div>
 );
 
-ReactDOM.render(navbar, document.getElementById("root"));
+// document.getElementById("root").append(JSON.stringify(page));
+// document.getElementById("root").append(page);
+ReactDOM.render(page, document.getElementById("root"));
