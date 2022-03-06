@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  background: #282d35;
 }
 
 .nav--main {
@@ -35,4 +36,22 @@ body {
 .nav--logo {
   height: 30px;
   margin-right: 7px;
+}
+
+.main--main {
+  position: static;
+}
+
+.main--heading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+
+.main--list {
+  color: #ffffff;
 }
