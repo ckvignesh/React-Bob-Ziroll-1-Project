@@ -38,20 +38,39 @@ body {
   margin-right: 7px;
 }
 
-.main--main {
-  position: static;
+main {
+  padding: 57px 27px;
+  background-image: url(./images/reactjs-icon\ 2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 75%;
+  background-color: #282d35;
 }
 
-.main--heading {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 39.06px;
-  line-height: 47px;
+.main--title {
+  margin: 20px;
+  font-size: 39px;
+  color: #ffffff;
   letter-spacing: -0.05em;
-  color: #ffffff;
 }
 
-.main--list {
+.main--facts {
+  margin-top: 46px;
   color: #ffffff;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  /* font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px; */
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
 }
