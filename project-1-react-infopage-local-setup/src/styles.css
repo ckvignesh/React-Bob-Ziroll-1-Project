@@ -1,0 +1,24 @@
+/* @import font-family: 'Inter', sans-serif; */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.react-logo{
+    height: 28.929542541503906px;
+width: 158px;
+left: 26px;
+top: 31px;
+border-radius: 0px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 91px;
+}
