@@ -1,24 +1,38 @@
 /* @import font-family: 'Inter', sans-serif; */
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
-.react-logo{
-    height: 28.929542541503906px;
-width: 158px;
-left: 26px;
-top: 31px;
-border-radius: 0px;
-
+.nav--main {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  height: 91px;
+  padding: 30px 25px;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    background-color: #21222A;
-    height: 91px;
+.nav--logo_text,
+.nav--title {
+  margin: 0;
+}
+
+.nav--logo_text {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav--title {
+  color: #deebf8;
+  font-weight: 600;
+}
+
+.nav--logo {
+  height: 30px;
+  margin-right: 7px;
 }

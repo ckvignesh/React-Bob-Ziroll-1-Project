@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className="nav--main">
       <img
         src={require("../images/logo512.png")}
         alt="react-logo"
-        className="react-logo"
+        className="nav--logo"
       />
-      <h3>React Facts</h3>
-      <h4>React Course - Project 1</h4>
+      <h3 className="nav--logo_text">React Facts</h3>
+      <h4 className="nav--title">React Course - Project 1</h4>
     </nav>
   );
 }
