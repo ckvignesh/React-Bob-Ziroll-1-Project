@@ -1,5 +1,5 @@
 # Project 1
 
-## Output
+## Output on local
 
 ![](./Project1.png)
